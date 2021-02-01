@@ -15,7 +15,7 @@ a {
 body {
    font-family: "Nunito", Helvetica, Arial, sans-serif;
    color: #222222;
-   background: #000;
+   background: #0b1d26;
 }
 
 ul {
@@ -33,6 +33,7 @@ img {
 
 * {
    box-sizing: border-box;
+   font-weight: bolder;
 }
 imd {
    max-width: 100%;
@@ -88,13 +89,13 @@ imd {
 }
 
 .img-bg3 {
-   z-index: -2;
+   z-index: 2;
    position: absolute;
    top: 60%;
 }
 
 .gradient-hero {
-   z-index: -1;
+   z-index: -2;
    position: absolute;
    left: 0%;
    top: 0%;
@@ -106,7 +107,7 @@ imd {
    opacity: 0.6;
 }
 
-/* =================== Main-Title =================== */
+/* =================== Header-Title =================== */
 
 .container-title {
    display: flex;
@@ -124,20 +125,159 @@ imd {
    font-weight: 600;
    text-transform: capitalize;
    margin-bottom: 32px;
+   color: white;
 }
 
 .container-title p {
    font-size: 1.2rem;
    font-weight: bold;
+   padding-bottom: 10px;
 }
 
-.container-title p:nth-of-type(1) {
+.container-title .p1 {
+   color: #fbd784;
    font-size: 1rem;
    letter-spacing: 5px;
    text-transform: uppercase;
    padding-bottom: 45px;
 }
 
+.container-title .p2 {
+   color: white;
+   margin-right: 10px;
+   font-size: 1rem;
+}
+.scroll-arrow {
+   display: flex;
+}
+.scroll-arrow img {
+   height: 24px;
+}
+
+/* =================== Main-Section-Conteúdo =================== */
+
+/* ========= Block Type A========== */
+.c-section {
+   width: 1400px;
+   margin: 0 auto;
+   margin-top: 720px;
+   padding: 0 80px;
+}
+
+.block-type-A,
+.block-type-B {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 200px;
+   height: 680px;
+}
+.block__container {
+   width: 550px;
+   align-self: center;
+   color: white;
+}
+.block__container p:first-child {
+   display: flex;
+   color: #fbd784;
+   letter-spacing: 5px;
+   font-weight: bolder;
+}
+
+.block__container h2 {
+   font-size: 64px;
+   font-weight: normal;
+}
+
+.block__container .text {
+   line-height: 2rem;
+}
+
+.block__container .p-line {
+   width: 60px;
+   height: 2px;
+   margin-top: 10px;
+   margin-right: 20px;
+   background: #fbd784;
+}
+
+.block__container span {
+   display: block;
+   color: #fbd784;
+   margin-top: 10px;
+}
+.block-type-A img,
+.block-type-B img {
+   max-width: 480px;
+}
+
+.arrow {
+   margin-top: 20px;
+   display: flex;
+   align-items: center;
+}
+
+.arrow span {
+   order: -1;
+   margin-right: 10px;
+}
+
+.arrow img {
+   margin-top: 10px;
+   align-self: center;
+}
+
+/* ========= Block Type B========== */
+
+.block-type-B img {
+   order: -1;
+}
+/* =================== Footer =================== */
+footer {
+   width: 1400px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 40px;
+   margin: 0 52px 200px;
+   flex-wrap: wrap;
+}
+
+footer .c-block-1 {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   justify-content: space-between;
+   color: white;
+}
+footer .c-block-1 div {
+   width: 300px;
+}
+
+footer .c-block-2 {
+   display: flex;
+   justify-content: space-between;
+}
+
+footer .c-block-2 div:first-of-type {
+   margin-right: 80px;
+}
+
+footer .c-block-2 div:last-of-type {
+}
+
+footer .c-block-2 h3 {
+   color: #fbd784;
+   font-size: 1.5rem;
+}
+
+footer .c-block-2 ul {
+   color: white;
+}
+
+footer .c-block-2 h3,
+li {
+   padding: 10px;
+}
 /* =================== Media queries =================== */
 @media (max-width: 700px) {
    .nav__menu {
