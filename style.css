@@ -15,7 +15,7 @@ a {
 body {
    font-family: "Nunito", Helvetica, Arial, sans-serif;
    color: #222222;
-   background: #0b1d26;
+   background-color: rgba(3, 18, 26, 0.8);
 }
 
 ul {
@@ -34,15 +34,25 @@ img {
 * {
    box-sizing: border-box;
    font-weight: bolder;
+   margin: 0;
+   padding: 0;
 }
-imd {
+img {
    max-width: 100%;
    vertical-align: middle;
    display: inline-block;
 }
 
+.width-page {
+   z-index: -20;
+   max-width: 1920px;
+   margin: auto;
+   background: #0b1d26;
+}
 /* =================== Header =================== */
 
+header {
+}
 .nav {
    margin: 0 auto;
    max-width: 1580px;
@@ -78,6 +88,7 @@ imd {
 
 .img-bg1 {
    position: absolute;
+   width: 100%;
    top: 0;
    z-index: -4;
 }
@@ -86,9 +97,11 @@ imd {
    z-index: -3;
    position: absolute;
    top: 40%;
+   width: 100%;
 }
 
 .img-bg3 {
+   width: 100%;
    z-index: 2;
    position: absolute;
    top: 60%;
@@ -111,11 +124,12 @@ imd {
 
 .container-title {
    display: flex;
+   flex-wrap: wrap;
    flex-direction: column;
    align-items: center;
-   width: 790px;
+   max-width: 700px;
    margin: 0 auto;
-   padding-top: 70px;
+   padding: 70px 20px 0px 20px;
 }
 
 .title {
@@ -126,11 +140,13 @@ imd {
    text-transform: capitalize;
    margin-bottom: 32px;
    color: white;
+   flex-wrap: wrap;
 }
 
 .container-title p {
    font-size: 1.2rem;
    font-weight: bold;
+
    padding-bottom: 10px;
 }
 
@@ -158,7 +174,7 @@ imd {
 
 /* ========= Block Type A========== */
 .c-section {
-   width: 1400px;
+   max-width: 1400px;
    margin: 0 auto;
    margin-top: 720px;
    padding: 0 80px;
@@ -167,13 +183,14 @@ imd {
 .block-type-A,
 .block-type-B {
    display: flex;
+   flex-wrap: wrap;
    justify-content: space-between;
+
    margin-bottom: 200px;
    height: 680px;
 }
 .block__container {
-   width: 550px;
-   align-self: center;
+   max-width: 550px;
    color: white;
 }
 .block__container p:first-child {
@@ -205,30 +222,29 @@ imd {
    color: #fbd784;
    margin-top: 10px;
 }
-.block-type-A img,
-.block-type-B img {
-   max-width: 480px;
+.block-type-A .image,
+.block-type-B .image {
+   max-width: 100%;
+   max-height: 680px;
 }
 
 .arrow {
-   margin-top: 20px;
-   display: flex;
-   align-items: center;
+   position: relative;
 }
 
 .arrow span {
    order: -1;
-   margin-right: 10px;
 }
 
 .arrow img {
-   margin-top: 10px;
-   align-self: center;
+   position: absolute;
+   left: 90px;
+   top: 5px;
 }
 
 /* ========= Block Type B========== */
 
-.block-type-B img {
+.block-type-B .image {
    order: -1;
 }
 /* =================== Footer =================== */
@@ -256,6 +272,7 @@ footer .c-block-1 div {
 footer .c-block-2 {
    display: flex;
    justify-content: space-between;
+   flex-wrap: wrap;
 }
 
 footer .c-block-2 div:first-of-type {
@@ -279,7 +296,57 @@ li {
    padding: 10px;
 }
 /* =================== Media queries =================== */
-@media (max-width: 700px) {
+
+@media (max-width: 1246px) {
+   .c-section {
+      padding: 0 20px;
+      max-width: 600px;
+   }
+   .block-type-A .image,
+   .block-type-B .image {
+      order: -1;
+      margin-bottom: 30px;
+      width: 100%;
+      height: 320px;
+   }
+
+   .block-type-A,
+   .block-type-B {
+      flex-direction: column;
+      height: 700px;
+      margin-bottom: 20px;
+      justify-content: flex-start;
+   }
+   .title {
+      font-size: 58px;
+   }
+   .block__container h2 {
+      font-size: 40px;
+   }
+
+   .block__container {
+      align-self: center;
+   }
+}
+
+@media (max-width: 900px) {
+   .img-bg1 {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      z-index: -4;
+   }
+
+   .img-bg2 {
+      top: 30%;
+   }
+
+   .img-bg3 {
+      top: 45%;
+   }
+}
+
+@media (max-width: 750px) {
    .nav__menu {
       position: absolute;
       width: 1px;
@@ -290,5 +357,8 @@ li {
       clip: rect(0, 0, 0, 0);
       white-space: nowrap;
       border-width: 0;
+   }
+
+   .c-section {
    }
 }
