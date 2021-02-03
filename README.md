@@ -107,9 +107,7 @@ $ git clone https://github.com/Pluto-ty/A-Hiking-Guide.git
 
 <h2 id="-autor">Autor da Landing Page</h2>
 
-<p> Conta do autor no figma </p>
-<a href="https://www.figma.com/@kryston">Kryston Schwarze</a>
-<br />
+<p> Conta do autor no figma: <a href="https://www.figma.com/@kryston">Kryston Schwarze</a> </p>
 <p> Link para a landing page no figma: <a href="https://www.figma.com/community/file/788675347108478517"> Figma </a> </p>
 
 <h2 id="user-content--licença"> 📝 Licença </h2>
