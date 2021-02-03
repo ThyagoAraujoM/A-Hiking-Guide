@@ -226,10 +226,18 @@ main {
    height: 680px;
 }
 .block__container {
+   position: relative;
    width: 50%;
    margin: auto 0;
    max-width: 550px;
 }
+
+.container-bg {
+   position: absolute;
+   top: -20%;
+   left: -20%;
+}
+
 .block__container p:first-child {
    display: flex;
    color: #fbd784;
