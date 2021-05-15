@@ -47,7 +47,7 @@ Esse repositório é feito com base em um projeto pronto no figma. Estarei deixa
 
 Este projeto só usa de tem Front-end. Clique no link abaixo para ver a aplicação rodando no seu navegador.
 
-<a href="https://pluto-ty.github.io/A-Hiking-Guide/./" > A Hiking Guide </a> 
+<a href="https://pluto-ty.github.io/A-Hiking-Guide/./" > A Hiking Guide </a>
 
 ### Pré-requisitos
 
@@ -65,23 +65,16 @@ $ git clone https://github.com/Pluto-ty/A-Hiking-Guide.git
 
 ---
 
-<h2> Projeto </h2>
+<h2> 🚀 Projeto </h2>
 
 <h4 align="center"> Mobile </h4>
   <p align="center";>
-   	<img alt="Header/Main" title="Header/Main" src="./assets/readme/mobile-home.png" width="200px">
-   	<img alt="Header/Main" title="Header/Main" src="./assets/readme/mobile-about.png" width="200px">
+   	<img alt="Header/Main" title="Header/Main" src="./assets/readme/demonstration-mobile.gif">
   </p>
 
 <h4 align="center"> Web </h4>
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Home page" title="Home page" src="./assets/readme/home.png" width="900px">
-</p>
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Products" title="Products" src="./assets/readme/about.png" width="900px">
-</p>
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Price" title="Price" src="./assets/readme/footer.png" width="900px">
+<p align="center" style="display: flex; justify-content: center;">
+  <img alt="Home page" title="Home page" src="./assets/readme/demonstration.gif" >
 </p>
 
 ---
@@ -117,6 +110,8 @@ Todos os tipos de contribuições são muito bem-vindos e apreciados!
 
 <p> Conta do autor no figma: <a href="https://www.figma.com/@kryston">Kryston Schwarze</a> </p>
 <p> Link para a landing page no figma: <a href="https://www.figma.com/community/file/788675347108478517"> Figma </a> </p>
+
+---
 
 <h2 id="user-content--licença"> 📝 Licença </h2>
 
