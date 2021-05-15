@@ -39,13 +39,7 @@
 
 <h2 id="---sobre-o-repositório-"> 💻  Sobre o repositório </h2>
 
-Esse repositório é feito com base em um projeto pronto no figma. Estarei deixando no final do repositório os links para acessar tanto o site do autor quanto o projeto no figma
-
-<h4 align="center">🚧 Aviso 🚧</h4>
-
-<p>
-Códigos comentados para minha própria revisão, se houver algo que acha que pode ser melhorado, não tenha medo de me comunicar isso me ajuda no meu crescimento profissional.
-</p>
+Esse repositório é feito com base em um projeto pronto no figma. Estarei deixando no final do repositório os links para acessar tanto o site do autor quanto o projeto no figma.
 
 ---
 
@@ -67,7 +61,7 @@ $ git clone https://github.com/Pluto-ty/A-Hiking-Guide.git
 
 ```
 
-2. Abra com o editor de escolha e modifique,brinque a vontade.
+2. Abra com o editor de escolha.
 
 ---
 
@@ -90,20 +84,6 @@ $ git clone https://github.com/Pluto-ty/A-Hiking-Guide.git
   <img alt="Price" title="Price" src="./assets/readme/footer.png" width="900px">
 </p>
 
-
-
-
-<h2 id="-autor">Autor</h2>
-
-<a href="https://github.com/Pluto-ty">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/51569984" width="100px;" alt=""/>
-</br>
-<p> Thyago Araujo <p>
-</a> 
-
-[![Linkedin Badge](https://img.shields.io/badge/-ThyagoAraujo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thyago-araujo-m/)](https://www.linkedin.com/in/thyago-araujo-m/)
-[![Gmail Badge](https://img.shields.io/badge/-thyagoaraujomotta@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:thyagoaraujomotta@gmail.com)](mailto:thyagoaraujomotta@gmail.com)
-
 ---
 
 <h2 id="--Contributing"> 🤝 Contribuindo </h2>
@@ -117,7 +97,19 @@ Todos os tipos de contribuições são muito bem-vindos e apreciados!
 🐛 Encontrar e relatar problemas
 </br>
 📥 Envie PRs para ajudar a resolver problemas ou adicionar recursos
+
+---
+
+<h2 id="-autor">Autor</h2>
+
+<a href="https://github.com/Pluto-ty">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/51569984" width="100px;" alt=""/>
 </br>
+<p> Thyago Araujo <p>
+</a>
+
+[![Linkedin Badge](https://img.shields.io/badge/-ThyagoAraujo-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thyago-araujo-m/)](https://www.linkedin.com/in/thyago-araujo-m/)
+[![Gmail Badge](https://img.shields.io/badge/-thyagoaraujomotta@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:thyagoaraujomotta@gmail.com)](mailto:thyagoaraujomotta@gmail.com)
 
 ---
 
