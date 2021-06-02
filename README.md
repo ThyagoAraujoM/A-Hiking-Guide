@@ -1,5 +1,5 @@
 <h1 align="center">
-     <a href="https://github.com/Pluto-ty/A-Hiking-Guide" alt="A Hiking Guide"> A Hikinh Guide </a>
+     <a href="https://github.com/thyagoaraujom/A-Hiking-Guide" alt="A Hiking Guide"> A Hikinh Guide </a>
 </h1>
 
 <h3 align="center">
@@ -7,17 +7,17 @@
 </h3>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/Pluto-ty/A-Hiking-Guide?style=flat-square">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/thyagoaraujom/A-Hiking-Guide?style=flat-square">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/Pluto-ty/A-Hiking-Guide">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/thyagoaraujom/A-Hiking-Guide">
   
-  <a href="https://github.com/Pluto-ty/README/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/Pluto-ty/A-Hiking-Guide">
+  <a href="https://github.com/thyagoaraujom/README/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/thyagoaraujom/A-Hiking-Guide">
   </a>
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
-   <a href="https://github.com/Pluto-ty/A-Hiking-Guide/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/Pluto-ty/A-Hiking-Guide?style=social">
+   <a href="https://github.com/thyagoaraujom/A-Hiking-Guide/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/thyagoaraujom/A-Hiking-Guide?style=social">
   </a>
   
  
@@ -47,7 +47,7 @@ Esse repositório é feito com base em um projeto pronto no figma. Estarei deixa
 
 Este projeto só usa Front-end (Html, Css). Clique no link abaixo para ver a aplicação rodando no seu navegador.
 
-<a href="https://pluto-ty.github.io/A-Hiking-Guide/./" > A Hiking Guide </a>
+<a href="https://thyagoaraujom.github.io/A-Hiking-Guide/./" > A Hiking Guide </a>
 
 ### Pré-requisitos
 
@@ -57,7 +57,7 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 1. Faça clone do projeto:
 
 ```bash
-$ git clone https://github.com/Pluto-ty/A-Hiking-Guide.git
+$ git clone https://github.com/thyagoaraujom/A-Hiking-Guide.git
 
 ```
 
@@ -95,7 +95,7 @@ Todos os tipos de contribuições são muito bem-vindos e apreciados!
 
 <h2 id="-autor">Autor</h2>
 
-<a href="https://github.com/Pluto-ty">
+<a href="https://github.com/thyagoaraujom">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/51569984" width="100px;" alt=""/>
 </br>
 <p> Thyago Araujo <p>
