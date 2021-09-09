@@ -45,9 +45,7 @@ Esse repositório é feito com base em um projeto pronto no figma. Estarei deixa
 
 <h2 id="--como-executar-o-projeto-"> 🚀 Como executar o projeto </h2>
 
-Este projeto só usa Front-end (Html, Css). Clique no link abaixo para ver a aplicação rodando no seu navegador.
-
-<a href="https://thyagoaraujom.github.io/A-Hiking-Guide/./" > A Hiking Guide </a>
+Clique no link para ver a aplicação rodando no seu navegador. <a href="https://thyagoaraujom.github.io/A-Hiking-Guide/./" > A Hiking Guide </a>
 
 ### Pré-requisitos
 
